@@ -5,7 +5,7 @@ import { LinearGradient } from "expo-linear-gradient";
 import {
   ArrowDownTrayIcon,
   Bars3CenterLeftIcon,
-  Bell,
+  BellIcon,
 } from "react-native-heroicons/solid";
 import { storeColors } from "../theme";
 import GradientButton from "../components/gradientButton";
@@ -102,7 +102,7 @@ export default function StoreScreen() {
         <View className="container">
           <View className="flex-row justify-between items-center px-4">
             <Bars3CenterLeftIcon color={storeColors.text} size="30" />
-            <Bell color={storeColors.text} size="30" />
+            <BellIcon color={storeColors.text} size="30" />
           </View>
 
           {/* categories */}
